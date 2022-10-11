@@ -1,0 +1,12 @@
+.cc {
+  color: cyan;
+}
+.cc .qq {
+  color: hotpink;
+}
+.cc:hover {
+  color: yellow;
+}
+.cc > .ee {
+  color: fuchsia;
+}
