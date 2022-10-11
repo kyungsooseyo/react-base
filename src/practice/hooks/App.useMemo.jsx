@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 
 export default function App() {
-  return (
-    <div>App.useMemo</div>
-  )
+  if (useMemo(() => 1, []) === 2) {
+    console.log('qq')
+  }
+  return <div>App.useMemo</div>
 }
