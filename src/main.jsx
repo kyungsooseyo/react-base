@@ -8,7 +8,7 @@ import './index.css'
 // import App from './App'
 // import App from './practice/router/1';
 // import App from './practice/Test.jsx'
-import App from './practice/hooks/App.useReducer2'
+import App from './practice/hooks/App.useMemo'
 ReactDOM.render(
   <React.StrictMode>
     {/* <BrowserRouter> */}
